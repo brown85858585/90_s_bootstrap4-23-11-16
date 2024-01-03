@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт закажи</title>
+    <!-- <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/4.1.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-spy="scroll" data-target="#main-nav" id="home">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Сайт закажи</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#01navColl">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="01navColl">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Начало</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#ex-head" class="nav-link">Продолжение</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#cr-head" class="nav-link">Саспенс</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#sh-head" class="nav-link">Окончало</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- home section -->
+    <header id="home-section">
+        <div class="dark-overlay">
+            <div class="home-inner container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h1 class="display-4">Я
+                            <strong> четко,</strong>
+                            совсем круто и прекрасно 
+                            <strong> верстаю</strong>
+                        </h1>
+                        <div class="d-flex">
+                            <div class="p-4 align-self-start">
+                                <i class="fas fa-check fa-2x"></i>
+                            </div>
+                            <div class="p-4 align-self-end">
+                                Сайты делаю Непалкой и Непальцем. Не вижу смысла ждать. Закажи пару для себя, один для жены и один (из старых) для тещи
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="p-4 align-self-start">
+                                <i class="fas fa-check fa-2x"></i>
+                            </div>
+                            <div class="p-4 align-self-end">
+                                Не заказал сайт - не мужик и уши у тебя холодные. А четкие ребята заказывают у ровных патцанов!
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="p-4 align-self-start">
+                                <i class="fas fa-check fa-2x"></i>
+                            </div>
+                            <div class="p-4 align-self-end">
+                                Если сайт не заказал, Ашот твой дом труда шатал! lorem для слабых духом и телом. Будь, как я - закажи сайт!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-3">
+                        <div class="card text-center card-form">
+                            <div class="card-body">
+                                <h3>Логинься тут у нас</h3>
+                                <p>Форму для регистрации заполни</p>
+                                <form id="form1-head">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control form-control-lg" placeholder="Имя твое">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control form-control-lg" placeholder="Мыло твое, ну понял">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control form-control-lg" placeholder="Пароль введи">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control form-control-lg" placeholder="И повтори">
+                                    </div>
+                                    <input type="submit" value="Послать" class="btn btn-outline-light w-100">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Explore head -->
+    <section id="ex-head">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-5">
+                    <h1 class="display-4">Открой свой ровный сайт</h1>
+                    <p class="lead">Текст-рыба — убогий костыль. И он по любому аукнется, когда в макет вставят живой текст. Вы же понимаете, что смысл текста страницы важен для дизайнера? Дизайн обыгрывает текст, актуализирует основные моменты, улучшает читабельность, подаёт дозированно и в нужном настроении.</p>
+                    <button class="btn btn-outline-secondary" data-toggle="modal" data-target="#contModal">Ощути большее</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Explore body -->
+    <section id="ex-body" class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/ex-01.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+                </div>
+                <div class="col-md-6">
+                    <h3>Открывай и соединяй окна и форточки</h3>
+                    <p>Оформление текста-рыбы бессмысленно, оно дискредитирует профессию веб-дизайнера. Макеты с Lorem Ipsum бесполезны с маркетинговой точки зрения.</p>
+                    <!-- https://reconcept.ru/blog/proshhaj-lorem-ipsum -->
+                    <div class="d-flex">
+                        <div class="p-4 align-self-start">
+                            <i class="fas fa-check fa-2x"></i>
+                        </div>
+                        <div class="p-4 align-self-end">
+                            Дизайнер красиво скомпоновал латинский бред, вписал его в концепцию сайта. Какая польза для вашего бизнеса в таком сайте?
+                            <!-- https://reconcept.ru/blog/proshhaj-lorem-ipsum -->
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="p-4 align-self-start">
+                            <i class="fas fa-check fa-2x"></i>
+                        </div>
+                        <div class="p-4 align-self-end">
+                            С Lorem Ipsum карточка смотрелась красиво. Вставили настоящий текст — вёрстка полезла. Кто виноват? Спросить заказчика, так, конечно, дизайнер.
+                            <!-- https://reconcept.ru/blog/proshhaj-lorem-ipsum -->
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Create head -->
+    <section id="cr-head">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-5">
+                    <h1 class="display-4">Забацаем по красоте</h1>
+                    <p class="lead">Контент в макетах должен быть боевой. Хватит блуждать в темноте с Lorem Ipsum и откладывать проблему в долгий ящик. Начало сайта — сбор контента. Подготовили контент — дизайнеру есть с чем работать. Хотите, чтобы сайт классно выглядел после запуска? Готовьте рабочие макеты!</p>
+                    <button class="btn btn-outline-light" data-toggle="modal" data-target="#contModal">Ощути большее</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Create body -->
+    <section id="cr-body" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 order-2">
+                    <img src="img/cr-01.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+                </div>
+                <div class="col-md-6 order-1">
+                    <h3>Все наладим и поставим, будто там и было</h3>
+                    <p>Оформление текста-рыбы бессмысленно, оно дискредитирует профессию веб-дизайнера. Макеты с Lorem Ipsum бесполезны с маркетинговой точки зрения.</p>
+                    <!-- https://reconcept.ru/blog/proshhaj-lorem-ipsum -->
+                    <div class="d-flex">
+                        <div class="p-4 align-self-start">
+                            <i class="fas fa-check fa-2x"></i>
+                        </div>
+                        <div class="p-4 align-self-end">
+                            Дизайнер красиво скомпоновал латинский бред, вписал его в концепцию сайта. Какая польза для вашего бизнеса в таком сайте?
+                            <!-- https://reconcept.ru/blog/proshhaj-lorem-ipsum -->
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="p-4 align-self-start">
+                            <i class="fas fa-check fa-2x"></i>
+                        </div>
+                        <div class="p-4 align-self-end">
+                            С Lorem Ipsum карточка смотрелась красиво. Вставили настоящий текст — вёрстка полезла. Кто виноват? Спросить заказчика, так, конечно, дизайнер.
+                            <!-- https://reconcept.ru/blog/proshhaj-lorem-ipsum -->
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shere head -->
+    <section id="sh-head">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-5">
+                    <h1 class="display-4">Раскажи про сайт браткам</h1>
+                    <p class="lead">Контент в макетах должен быть боевой. Хватит блуждать в темноте с Lorem Ipsum и откладывать проблему в долгий ящик. Начало сайта — сбор контента. Подготовили контент — дизайнеру есть с чем работать. Хотите, чтобы сайт классно выглядел после запуска? Готовьте рабочие макеты!</p>
+                    <button class="btn btn-outline-secondary" data-toggle="modal" data-target="#contModal">Ощути большее</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Shere body -->
+    <section id="sh-body" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/share-02.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+                </div>
+                <div class="col-md-6">
+                    <h3>За такую вещь не будет стыдно перед патцанами</h3>
+                    <p>Оформление текста-рыбы бессмысленно, оно дискредитирует профессию веб-дизайнера. Макеты с Lorem Ipsum бесполезны с маркетинговой точки зрения.</p>
+                    <!-- https://reconcept.ru/blog/proshhaj-lorem-ipsum -->
+                    <div class="d-flex">
+                        <div class="p-4 align-self-start">
+                            <i class="fas fa-check fa-2x"></i>
+                        </div>
+                        <div class="p-4 align-self-end">
+                            Где взять настоящий текст? У заказчика. Никто лучше заказчика не разбирается в его бизнесе. Только с настоящим текстом дизайнер задумается над тем, что сайт сообщает людям. Важно ли это? Разумеется, ведь ради этого вы и создаёте сайт.
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="p-4 align-self-start">
+                            <i class="fas fa-check fa-2x"></i>
+                        </div>
+                        <div class="p-4 align-self-end">
+                            Сайт — это контент. Уберите с сайта контент и там ничего не останется. Так что, хватит гонять по монитору Lorem Ipsum, работайте с реальным контентом.
+                            <!-- https://reconcept.ru/blog/proshhaj-lorem-ipsum -->
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="foot-div" class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-4">
+                    <h3>Сайт закажи</h3>
+                    <p>Copiright &copy; <span id="year"></span></p>
+                    <p>+7 950 005 44 09</p>
+                    <p>brown85858585@gmail.com</p>
+                    <button class="btn btn-outline-info" data-toggle="modal" data-target="#contModal">Пиши давай</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact modal -->
+    <div id="contModal" class="modal fade text-dark">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Пиши, да?</h5>
+                    <button class="btn close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="form2-modal">
+                        <div class="form-group">
+                            <label for="modal-body-name">Имя</label>
+                            <input id="modal-body-name" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="modal-body-mail">Мыло</label>
+                            <input id="modal-body-mail" type="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="modal-body-text">Пара слов</label>
+                            <input id="modal-body-text" type="text" class="form-control">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-info w-100">Послать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- jQuery нужен для nav-spy и плавной прокрутки -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS отвечает за работу бургера в мобильной версии и вызов модального поп апа -->
+    <script src="https://cdn.usebootstrap.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <!-- popper в этой версии сайта бесполезен -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <script>
+        $('#year').text(new Date().getFullYear());
+
+        $('#main-nav a').on('click', function (event) {
+            if (this.hash !== '') {
+                event.preventDefault();
+
+                const hash = this.hash;
+
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function() {
+                    window.location.hash = hash;
+                });
+            }
+        });
+    </script>
+</body>
+</html>

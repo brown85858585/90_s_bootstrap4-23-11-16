@@ -1,0 +1,53 @@
+body{
+    background: #333;
+    color: #fff;
+}
+.navbar{
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.8;
+}
+#home-section{
+    background: url(../img/home01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* min-height: 700px; */
+}
+#home-section .dark-overlay{
+    /* min-height: 700px; */
+    background: rgba(0, 0, 0, 0.4);
+}
+#home-section .home-inner{
+    padding-top: 150px;
+}
+#home-section .card{
+    background-color: #17a2b8;
+    opacity: 0.8;
+}
+#home-section .fas{
+    color: #17a2b8;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+#home-section .form-group{
+    margin-bottom: .5rem;
+}
+#ex-body .fas{
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+#ex-body, #sh-head{
+    color: #6c757d;
+}
+#ex-body img, #cr-body img{
+    max-height: 400px;
+}
+#cr-head{
+    background-color: #17a2b8;
+}
+#sh-head{
+    background-color: #fff;
+}
